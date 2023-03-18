@@ -131,3 +131,5 @@ dmypy.json
 *.bin
 *.json
 *.jsonl
+*.pkl
+*.output
