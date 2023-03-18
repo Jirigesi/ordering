@@ -297,5 +297,5 @@ syntax_attention_weights = getSyntaxAttentionScore(model, data, tokenizer, synta
 
 # pickle the result
 import pickle
-with open('CD4DD_syntax_attention_weights.pkl', 'wb') as f:
+with open('CD4DD_AST_attention_weights.pkl', 'wb') as f:
     pickle.dump(syntax_attention_weights, f)
